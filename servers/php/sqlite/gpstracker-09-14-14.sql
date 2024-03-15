@@ -1,7 +1,7 @@
 --------------------------------------------------------------
 -- SQL for creating GpsTracker objext in a PostgreSQL database
 --------------------------------------------------------------
-DROP VIEW  IF EXISTS v_GetAllRoutesForMap;
+DROP VIEW  IF EXIS v_GetAllRoutesForMap;
 DROP VIEW  IF EXISTS v_GetRouteForMap;
 DROP VIEW  IF EXISTS v_GetRoutes;
 DROP INDEX IF EXISTS sessionIDIndex;
